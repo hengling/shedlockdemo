@@ -1,0 +1,20 @@
+version: '3'
+services:
+  shedlockdemo:
+    image: schedlockdemo:1.0.0
+    environment:
+      spring.datasource.url: jdbc:postgresql://database:5432/shedlockdemo
+    depends_on:
+      - database
+  database:
+    image: postgres:10.5-alpine
+    ports:
+      - 5432:5432
+    volumes:
+      - databasedata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=shedlockdemo
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+volumes:
+  databasedata:
