@@ -44,3 +44,4 @@ O comando acima irá garantir que 4 instâncias fiquem disponíveis para utiliza
 ## Referência
 
 * Biblioteca ShedLock: [https://github.com/lukas-krecan/ShedLock](https://github.com/lukas-krecan/ShedLock)
+* Link para o artigo completo: 
