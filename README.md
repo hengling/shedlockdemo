@@ -44,4 +44,4 @@ O comando acima irá garantir que 4 instâncias fiquem disponíveis para utiliza
 ## Referência
 
 * Biblioteca ShedLock: [https://github.com/lukas-krecan/ShedLock](https://github.com/lukas-krecan/ShedLock)
-* Link para o artigo completo: 
+* Link para o artigo completo: [http://tech.azi.com.br/evitando-problemas-em-tarefas-agendadas-ao-escalar-sua-aplicacao/](http://tech.azi.com.br/evitando-problemas-em-tarefas-agendadas-ao-escalar-sua-aplicacao)
